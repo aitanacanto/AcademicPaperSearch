@@ -1,0 +1,24 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+._*
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+
+data/raw/*
+data/processed/*
+data/index/*
+data/eval/*
+!data/**/README.md
+*.pkl
+
+# Generated notebook corpus and indexes
+notebooks/data/
