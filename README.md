@@ -1,10 +1,22 @@
 # Academic Paper Search
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aitanacanto/AcademicPaperSearch/blob/main/notebooks/academic_paper_search.ipynb) · [Run locally](#run-locally)
+
 **A local search engine for literature on document verification, misinformation and LLM reliability.**
 
 Individual academic project by **Aitana Cantó Rico** for **Information Retrieval**, University of West Attica, Greece, academic year **2025-2026**.
 
 ![Local browser interface with results from a newly collected corpus](docs/images/local-search.png)
+
+## Open the notebook in Colab
+
+Click **Open in Colab** above to explore and execute the notebook in your browser. GitHub displays a static preview; Colab lets you run the cells and use the notebook widgets.
+
+Connect to a runtime, then run the collection, preprocessing and indexing cells before using the search interface. The console-search cells wait for queries: enter `exit` to continue. Evaluation is optional when you only want to try the interface.
+
+Access follows the repository's visibility. If the repository is private, Colab needs an authorized GitHub account with access to it. You can also download the notebook and upload it to Colab yourself.
+
+For the standalone browser application, use the local instructions below. Both options use the same retrieval methods.
 
 ## Run locally
 
